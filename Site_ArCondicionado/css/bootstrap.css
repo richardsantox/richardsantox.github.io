@@ -419,6 +419,18 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -4778,6 +4790,7 @@ input[type="button"].btn-block {
 
 .card-text:last-child {
   margin-bottom: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .card-link:hover {
@@ -4801,7 +4814,7 @@ input[type="button"].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color:rgb(63, 63, 63);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -4836,7 +4849,10 @@ input[type="button"].btn-block {
 .card-img-bottom {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 100%;
+  width: 30%;
+  margin:  10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-img,
@@ -6714,7 +6730,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: rgb(63, 63, 63) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10145,7 +10161,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #6886a0 !important;
 }
 
 .text-black-50 {
