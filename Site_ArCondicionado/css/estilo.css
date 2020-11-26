@@ -66,12 +66,31 @@ table{
 th, td{
     padding: 10px;
     border-radius: 20%;
+    
 }
 td:hover{
     background-color: rgb(43, 113, 170);
 }
 tr:nth-child(even){
     background-color: #dddddd;
+}
+
+#msg{
+    padding-top: 3%;
+}
+
+#msg .card{
+    background-color: rgba(18, 61, 155, 0.719) ;
+}
+
+.formulario{
+    padding: 3.5%;
+    width: 90%;
+}
+
+.formulario .botao{
+    margin-top: 0.5%;
+    color:#60a2db;
 }
 
 footer{
